@@ -112,3 +112,24 @@ The four plots that you will need to construct are shown below.
 
 ![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
 
+##Alan Arias's Notes
+For each portion of the assignment you will find an R file and 
+a PNG file, corresponding to code that generates a plot, 
+and the plot the code generates. 
+
+Each R file does the following:
+1. Downloads, unzips, reads, and tidies the data according 
+   to the instructions
+2. Creates a PNG file in the working directory, creates a plot, 
+   and closes the PNG device.
+   
+The files in the repo and their uses:
+Plot1.R--Creates a histogram of Global Active Power measurements
+plot1.png--The output of Plot1.R
+plot2.R--Creates a line plot of Global Active Power measurements over time
+plot2.png--The output of plot2.R
+plot3.R--Creates a line plot of measurements for sub-metering No. 1, 2, and 3.
+plot3.png--The output of plot3.R   
+plot4.R--Creates 4 plots row-wise: 1)plot2, 2)Voltage readings over time, 
+         3)plot3, and 4)Reactive power over time
+plot4.png--The output of plot4.R
